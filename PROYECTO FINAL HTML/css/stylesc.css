@@ -1,0 +1,84 @@
+
+.text-primary {
+    color: ivory;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color:#5a3e28;
+}
+.l-heading {
+    font-size: 40px;
+}
+.l-heading1 {
+    font-size: 40px;
+    text-align: center;
+    color: #24160E;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: ivory;
+    background: #5a3e28;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.bg-dark {
+    background: #856d55;
+    color: ivory;
+}
+
+#cursos {
+    background: url('/imagenes/fondo_velas2.jpeg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#cursos .cursos-content {
+    color: #24160E;
+    text-align: justify;
+    padding-top: 170px;
+}
+
+#cursos .cursos-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#cursos .cursos-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+#cursos .cursos {
+    overflow: hidden !important;
+}
